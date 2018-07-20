@@ -1,0 +1,13 @@
+<h1>这是一个严肃的实验项目</h1>
+<script>
+var date = new Date();
+var y = date.getFullYear();
+var m = date.getMonth()+1;
+var d = date.getDate();
+var pass1 = Date.parse('2018/7/13');  //开始的日期
+var pass2 = Date.parse(y+'/'+m+'/'+d);  //当前日期
+var time = (pass2-pass1)/(1000*60*60*24);  //过去的天数
+//alert(time);
+document.write(time);
+</script>
+
