@@ -11,9 +11,12 @@
 #clickSound{display:none}
 #code{float:left;width:440px;height:400px;color:#ECECEC;font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";font-size:12px}
 #code .string{color:#ECECEC}
-#code .keyword{color:#7f0055;font-weight:bold}
+#code .keyword{color:#F2263A;font-weight:bold}
+#code .function{color:#A6E22E;font-weight:bold}
+#code .means{color:#66D9EF}
+#code .parameter{color:#FD971F}
 #code .placeholder{margin-left:15px}#code .space{margin-left:7px}
-#code .comments{color:#3f7f5f}
+#code .comments{color:#756F4A}
 #copyright{margin-top:10px;text-align:center;width:100%;color:#666}
 #errorMsg{width:100%;text-align:center;font-size:24px;position:absolute;top:100px;left:0}
 #copyright a{color:#666}
